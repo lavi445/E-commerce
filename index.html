@@ -203,36 +203,16 @@
             });
         }
 
-        // Function to display all products (for the all products page)
-        function displayProducts(products) {
-            const productsContainer = document.getElementById('products');
-            productsContainer.innerHTML = ''; // Clear existing products
-
-            products.forEach(product => {
-                const productCard = document.createElement('div');
-                productCard.className = 'product-card';
-
-                productCard.innerHTML = `
-                    <img src="${product.image}" alt="${product.name}">
-                    <div class="product-name">${product.name}</div>
-                    <div class="product-price">Rs ${product.price.toFixed(2)}</div>
-                    <button class="product-button" onclick="addToCart(${product.id})">Add to Cart</button>
-                `;
-
-                productsContainer.appendChild(productCard);
-            });
-        }
-
-        // Function to filter products by category
+        // Function to filter products by category (for future use on index page)
         async function filterProducts(category) {
             try {
                 const response = await fetch('products.json');
                 const products = await response.json();
                 if (category === 'All') {
-                    displayProducts(products);
+                    displayFeaturedProducts(products); // Still display only featured products
                 } else {
                     const filtered = products.filter(product => product.category === category);
-                    displayProducts(filtered);
+                    displayFeaturedProducts(filtered.slice(0, 5)); // Display first 5 filtered
                 }
             } catch (error) {
                 console.error('Error fetching products:', error);
@@ -301,21 +281,7 @@
         // Initialize the page
         document.addEventListener('DOMContentLoaded', async () => {
             const products = await loadProducts();
-            // Determine the current page
-            const path = window.location.pathname;
-            const page = path.split("/").pop();
-
-            if (page === '' || page === 'index.html') {
-                // Show only featured products on the index page
-                displayFeaturedProducts(products);
-            } else if (page === 'allproducts.html') {
-                // Show all products on the all products page
-                displayProducts(products);
-            } else {
-                // Default behavior (optional)
-                displayProducts(products);
-            }
-
+            displayFeaturedProducts(products); // Show only featured products on the index page
             setCurrentYear();
             updateCartCount();
         });
