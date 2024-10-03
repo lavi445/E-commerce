@@ -379,11 +379,12 @@
         }
 
         // Function to set the current year in the footer
-        function setCurrentYearFooter() {
-            const yearSpan = document.getElementById('year-footer');
-            const currentYear = new Date().getFullYear();
-            yearSpan.textContent = currentYear;
-        }
+       function setCurrentYearFooter() {
+    const yearSpan = document.getElementById('year'); // Corrected ID
+    const currentYear = new Date().getFullYear();
+    yearSpan.textContent = currentYear;
+}
+
 
         // Function to handle payment simulation
         function setupPaymentSimulation() {
