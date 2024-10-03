@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "name": "Modern Sofa",
+        "category": "Furniture",
+        "price": 20000,
+        "image": "https://i5.walmartimages.com/asr/7d02260c-a698-4483-987c-d869322767b2_1.fe5dc992988558473ed1b04fefa3955a.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 2000,
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/skullcandy_s6hbgy_374_hesh_2_bluetooth_headphones_1085703.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Organic Apples",
+        "category": "Grocery",
+        "price": 3.99,
+        "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 4,
+        "name": "Men's Leather Jacket",
+        "category": "Fashion",
+        "price": 3000,
+        "image": "https://th.bing.com/th/id/OIP.HgyB_VxY68YO-i-Cn2N-PwHaJ4?rs=1&pid=ImgDet&w=800&h=800"
+    },
+    {
+        "id": 5,
+        "name": "Smart LED TV",
+        "category": "Electronics",
+        "price": 70000,
+        "image": "https://i5.walmartimages.com/asr/2b2943fd-73d6-4d7b-9c54-e22db0c660f1_4.e79d68ec3a718064170de6cbd82e6030.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Ergonomic Office Chair",
+        "category": "Furniture",
+        "price": 15000,
+        "image": "https://images.unsplash.com/photo-1581091870623-56cba59b9b3e?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 7,
+        "name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "price": 3500,
+        "image": "https://images.unsplash.com/photo-1581291519195-ef11498d1cf5?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 8,
+        "name": "Organic Honey",
+        "category": "Grocery",
+        "price": 250,
+        "image": "https://images.unsplash.com/photo-1585675109592-96d6c3a8e5a0?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 9,
+        "name": "Women's Summer Dress",
+        "category": "Fashion",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1520975697548-3c63f4f7a8ae?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 10,
+        "name": "Wireless Charger",
+        "category": "Electronics",
+        "price": 800,
+        "image": "https://images.unsplash.com/photo-1580894894517-9a2e2f3a1f50?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 11,
+        "name": "Stainless Steel Refrigerator",
+        "category": "Home Appliances",
+        "price": 45000,
+        "image": "https://images.unsplash.com/photo-1582719478174-d564e45e306d?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 12,
+        "name": "Yoga Mat",
+        "category": "Sports",
+        "price": 700,
+        "image": "https://images.unsplash.com/photo-1554284126-aa88f22d9a06?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 13,
+        "name": "Electric Kettle",
+        "category": "Home Appliances",
+        "price": 1500,
+        "image": "https://images.unsplash.com/photo-1584270354949-76f6bdf4f77c?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 14,
+        "name": "Gaming Laptop",
+        "category": "Electronics",
+        "price": 120000,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 15,
+        "name": "Organic Green Tea",
+        "category": "Grocery",
+        "price": 500,
+        "image": "https://images.unsplash.com/photo-1518972559570-1c3eb04c3b52?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 16,
+        "name": "Men's Running Shoes",
+        "category": "Fashion",
+        "price": 2500,
+        "image": "https://images.unsplash.com/photo-1528701800484-0094641e64f4?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 17,
+        "name": "Digital Camera",
+        "category": "Electronics",
+        "price": 45000,
+        "image": "https://images.unsplash.com/photo-1519183071298-a2962f2ab117?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 18,
+        "name": "Children's Educational Toy",
+        "category": "Toys",
+        "price": 800,
+        "image": "https://images.unsplash.com/photo-1598515218163-15a909ba19b4?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 19,
+        "name": "Lipstick Set",
+        "category": "Beauty",
+        "price": 1500,
+        "image": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 20,
+        "name": "Mystery Novel",
+        "category": "Books",
+        "price": 500,
+        "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 21,
+        "name": "Fitness Tracker",
+        "category": "Electronics",
+        "price": 3500,
+        "image": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 22,
+        "name": "Blender",
+        "category": "Home Appliances",
+        "price": 1800,
+        "image": "https://images.unsplash.com/photo-1585386959984-a41552245c06?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 23,
+        "name": "Electric Guitar",
+        "category": "Musical Instruments",
+        "price": 25000,
+        "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 24,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "price": 55000,
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 25,
+        "name": "Electric Toothbrush",
+        "category": "Personal Care",
+        "price": 1200,
+        "image": "https://images.unsplash.com/photo-1584724472067-550bd4b6d5e1?q=80&w=800&auto=format&fit=crop"
+    }
+]
